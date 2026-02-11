@@ -1,13 +1,13 @@
-const BASE_URL = "https://ndb.fut.ru";
-const TABLE_ID = "m6tyxd3346dlhco";
-const API_KEY = "N0eYiucuiiwSGIvPK5uIcOasZc_nJy6mBUihgaYQ";
+const BASE_URL = "https://noco.fut.ru";
+const TABLE_ID = "m9g4wpp9d81pzjr";
+const API_KEY = "lSi7EzZD_NPfVIn4vWBCcgQCSPFwt3NjtQVzazpe";
 
 const RECORDS_ENDPOINT = BASE_URL + "/api/v2/tables/" + TABLE_ID + "/records";
 const FILE_UPLOAD_ENDPOINT = BASE_URL + "/api/v2/storage/upload";
 
 // Поля для загрузки маршрута
-const ROUTE_FIELD_ID = "cw34jpocemru1dn";
-const DATE_FIELD_ROUTE = "cu7xa90kqnjqi00"; // дата загрузки маршрута
+const ROUTE_FIELD_ID = "c8d03cn4qo0qzpo";
+const DATE_FIELD_ROUTE = "cfjw8m8k0zj0a47"; // дата загрузки маршрута
 
 let currentRecordId = null;
 let userPlatform = null;
